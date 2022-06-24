@@ -42,7 +42,7 @@ function TodoList() {
 
     return (
         <div>
-            <h1>Whats the plan for Today?</h1>
+            <h1>What's your plan for Today?</h1>
             <TodoForm onSubmit={addTodo} />
             <Todo
                 todos={todos}
